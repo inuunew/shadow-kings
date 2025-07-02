@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SHADOW KING'S</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-[darkred] min-h-screen flex flex-col justify-between text-gray-300">
+  </h1>
+        <button
+          class="bg-red-600 text-white text-sm font-semibold px-4 py-1 rounded-md"
+          type="button"
+        >
+          INUU IS HERE || SHADOW KING'S V4 ||
+        </button>
+      </div>
+<img src="https://files.catbox.moe/5tbjzn.jpg" style="border-radius:100%;box-shadow: 0px 0px 7px black;" height="600" width="600"> <br> <br> </b>
+  <div class="p-5 max-w-md mx-auto w-full">
+    <div class="bg-[#411827] rounded-xl p-9 space-y-1">
+      <div class="flex justify-between items-start">
+        <h1 class="text-red-500 text-xl font-semibold flex items-center gap-2">
+          <i class="fas fa-globe"></i> Shadow King'S V4
+        </h1>
+        <button
+          class="bg-red-600 text-white text-sm font-semibold px-4 py-1 rounded-md"
+          type="button"
+        >
+          Logout
+        </button>
+      </div>
+      <input
+        type="text"
+        placeholder="Masukkan Nomor Negara (Example : 628Xx)"
+        class="w-full rounded-md border-2 border-yellow-400 bg-[#411827] text-gray-400 placeholder-gray-400 px-1 py-1 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+      />
+      <div class="flex justify-center gap-4">
+                <button
+          class="bg-red-600 text-white rounded-md px-3 py-1.5 text-sm font-medium"
+          type="button"
+        >
+          STUCK LOGO
+        <button
+          class="bg-red-600 text-white rounded-md px-3 py-1.5 text-sm font-medium"
+          type="button"
+        >
+          FORCE CLOSE
+        </button>
+        <button
+          class="bg-red-600 text-white rounded-md px-3 py-1.5 text-sm font-medium"
+          type="button"
+        >
+          DELAY CHAT
+        </button>
+        <button
+          class="bg-red-600 text-white rounded-md px-3 py-1.5 text-sm font-medium"
+          type="button"
+        >
+          BLANK UI
+        </button>
+      </div>
+      <div class="text-center text-gray-200 text-sm font-semibold space-y-1">
+        <p>
+          <span class="font-bold">Status:</span> Server Offline
+        </p>
+        <p>
+          <span class="font-bold">Info:</span> Selamat datang
+        </p>
+      </div>
+    </div>
+
+    <div class="bg-[#411827] rounded-xl p-6 mt-6 text-gray-300 text-sm leading-relaxed">
+      <p class="font-semibold mb-2">Note:</p>
+      <p class="mb-4">
+        Fitur Ini Hanya Ujicoba Semata Karena Emang Gabisa Buat Ngebak Ngebak 
+      </p>
+      <p class="mb-4">
+        Developer Tidak Ngerti Cara Nambah Function Di Html Jadi Apa boleh Buat Web Ini Cuma Buat Seru" an Saja
+      </p>
+      <p class="mb-4">
+        Web Ini Tidak Resmi Jadi Jika Ada Kesalahan Maklumin Aja.
+      </p>
+      <p>
+        Contact Developer t.me/InuuUtama atau Nomor Developer 6283160556330.
+      </p>
+    </div>
+  </div>
+
+</h1>
+        <button
+          class="bg-red-600 text-white text-sm font-semibold px-4 py-1 rounded-md"
+          type="button"
+        >
+          WEB BY INUU || t.me/@InuuUtama
+        </button>
+      </div>
+
+  <!-- Audio autoplay -->
+  <audio id="bg-audio" autoplay loop>
+    <source src="https://files.catbox.moe/u1vzt2.mp3" type="audio/mpeg" />
+    Browser Anda tidak mendukung audio.
+  </audio>
+
+  <script>
+    const audio = document.getElementById('bg-audio');
+    audio.volume = 1.0;
+
+    function tryPlayAudio() {
+      const playPromise = audio.play();
+
+      if (playPromise !== undefined) {
+        playPromise
+          .then(() => {
+            // Audio berhasil diputar
+          })
+          .catch(() => {
+            // Gagal, coba lagi setelah 1 detik
+            setTimeout(tryPlayAudio, 1000);
+          });
+      }
+    }
+
+    window.addEventListener('load', () => {
+      tryPlayAudio();
+    });
+  </script>
+</body>
+</html>
